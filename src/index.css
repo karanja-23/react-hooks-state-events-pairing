@@ -9,4 +9,30 @@ body {
 
 .App {
   text-align: center;
+
+  iframe {
+    margin:30px;
+    width: 80%;
+    height: 40vh;
+  }
+  #info {
+   
+    display: flex;
+    justify-content: center;
+    
+  }
+  button{
+    margin-top: 0px;
+    padding: 4px;
+  }
+  #hideComments{
+    font-weight: 500;
+    margin: 20px;
+    padding: 4px 15px;
+  }
+  hr{
+    width: 90%;
+    margin-bottom: 20px;
+   
+  }
 }
